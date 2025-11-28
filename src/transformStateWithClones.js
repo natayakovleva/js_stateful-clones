@@ -33,7 +33,7 @@ function transformStateWithClones(state, actions) {
         break;
 
       default:
-        nextState = { ...state };
+        nextState = { ...currentState };
         break;
     }
 
